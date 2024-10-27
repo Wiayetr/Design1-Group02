@@ -1,0 +1,5 @@
+MSP430开发板
+
+HC-05蓝牙模块
+
+Bluetooth Terminal App（手机端）
