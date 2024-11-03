@@ -1,3 +1,9 @@
+'''
+
+尝试使用 serial 读取串口内数据
+
+'''
+
 import serial
 import re
 
