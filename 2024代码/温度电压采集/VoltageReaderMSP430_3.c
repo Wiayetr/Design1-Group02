@@ -307,9 +307,6 @@ int main(void) {
             PrintFloat((float)Average(adcbuff, 50) * 2.5 / 1023, 3);
             UARTSendString("\n");
 
-            // 通过UART发送完成信息
-            UARTSendString("ADC Sample Finished!\n");
-
             // 延时，等待下一次转换
             __delay_cycles(1000000);
         }
